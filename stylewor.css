@@ -1,0 +1,260 @@
+@font-face {
+    font-family: canopee;
+    src: url(./Canopee.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#main {
+    z-index: 998;
+    opacity: 0.9;
+    background-image: url(https://uploads-ssl.webflow.com/5f2429f…/614f353…_6059a3e…_pt-texture-2.jpg);
+    background-position: 50%;
+    background-size: auto;
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    background-color: #CDC6BE;
+    overflow: hidden;
+}
+
+
+body {
+    background-color: #CDC6BE;
+    letter-spacing: -.02em;
+    font-family: Editorial New;
+    height: 100vh;
+    width: 100vw;
+    background-color: #cdc6be;
+    overflow-x: hidden;
+}
+#menu {
+    background-color: #1D1D1B;
+    z-index: 999;
+    position: absolute;
+    margin-left: -100vw;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    transition: 2s ease-in-out;
+}
+
+#menu>#nav {
+    color: #CDC6BE;
+    background-color: #1D1D1B !important;
+}
+
+#menu>#nav>li {
+    opacity: 0;
+}
+
+#nav{
+    overflow: hidden;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    border-right: 1px solid #1d1d1b;
+    background-color: #CDC6BE;
+    flex-direction: column-reverse;
+}
+
+#nav>li {
+    transform: rotateZ(90deg);
+    width: 10vw;
+    list-style: none;
+    font-size: 2.1vh;
+    letter-spacing: -2;
+}
+#nav>i{
+    cursor: pointer;
+}
+#nav>img {
+    transform: rotateZ(90deg);
+    cursor: pointer;
+    width: 10vw;
+}
+#page3 {
+    gap: 1vw;
+    flex-direction: column;
+    left: 8%;
+    top: 4%;
+    position: absolute;
+    background-color: #CDC6BE;
+    display: flex;
+    justify-content: space-between;
+}
+#page3>.page3-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 26vw;
+}
+
+#m {
+    width: 30vw;
+    background-color: #1d1d1b;
+}
+
+#m>h1 {
+    text-transform: uppercase;
+    font-weight: 300;
+    text-align: center;
+    color: #cdc6be;
+    font-size: 10vw;
+    font-family: canopee;
+}
+
+#page3>p {
+    margin-top: 30px;
+    font-size: 2vw;
+    width: 30vw;
+    font-weight: 400;
+}
+
+
+#page3>p::first-letter {
+    font-family: "Canopee", sans-serif;
+    font-feature-settings: "ss03";
+    float: left;
+    font-size: 7vw;
+    line-height: 4vw;
+    margin: .7vw 1vw 1vw 0vw;
+    background-color: #1D1D1B;
+    color: #CDC6BE;
+    padding: .75vw .4vw .5vw .5vw;
+}
+
+#page3>.page3-1>img {
+    width: 8vw;
+}
+
+
+#btm {
+    width: fit-content;
+    height: 90vh;
+    text-align: center;
+    align-items: center;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#bx1,#bx2{
+    margin-top: -3vw;
+}
+#btm>.box{
+    overflow: hidden;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+    transition: .3s ease-in;
+}
+#btm>.box>a {
+    margin-top:500px;
+    opacity: 0;
+    letter-spacing: -0.75vw;
+    font-weight: 500;
+    font-family: Canopee;
+    color: #CDC6BE;
+    font-size: 224px;
+    text-decoration: none;
+    transition: .3s ease-in;
+}
+
+#btm>.box>a:hover {
+    color: #BEB5AB;
+    letter-spacing: -0.50vw;
+}
+.mystyle{
+    width: 0px;
+    height: 1.5vh;
+    transform-origin: 0%;
+    background-color: #c03f13;
+    opacity:1;
+    position: absolute;
+    transition: 0.5s ease-in-out;
+}
+
+#btm>.box>a>span {
+    font-family: Domaine Display;
+}
+
+.btm-fo {
+    height: 10vh;
+    width: 100vw;
+    justify-content: center;
+    z-index: 999;
+    background-color: #1D1D1B;
+    padding-bottom: 3vw;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: canopee;
+    color: #cdc6be;
+    display: flex;
+}
+.btm-fo>.bx5{
+    width: fit-content;
+    overflow: hidden;
+}
+.btm-fo>.bx5>.bx6{
+    opacity: 0;
+    margin-top: 200px;
+    display: flex;
+}
+
+
+#navwo {
+    overflow: hidden;
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    height: 10vh;
+    width: 99.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #1d1d1b;
+    color: #BEB5AB;
+}
+
+#navwo>img {
+    cursor: pointer;
+    width: 10%;
+}
+
+#navwo>li {
+    list-style: none;
+    font-size: 2.1vh;
+    letter-spacing: -2;
+}
+
+#navwo>i {
+    transition: 2s ease-in-out;
+    cursor: pointer;
+    font-size: 40px;
+}
+

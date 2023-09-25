@@ -1,0 +1,464 @@
+
+@media only screen and (min-width:780px) and (max-width:1500px) {
+    #page1>.contain>.part1>h4 {
+        font-size: 2vw;
+    }
+
+    #page1>.contain>.part1>p {
+        font-size: 1.5vw;
+    }
+
+    #page1>.contain>.part2>h3 {
+        font-size: 3vw;
+    }
+
+    #page1>.contain>.part2>h5 {
+        font-size: 1.5vw;
+    }
+
+    #page1>.contain>.part2>h5>span {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (min-width:873px) and (max-width:1280px) {
+    #page8>.card-container2>.cards3 {
+        width: 47vw;
+    }
+}
+
+@media only screen and (min-width:100px) and (max-width:1500px) {
+    #page8 {
+        display: none;
+    }
+    .line {
+        padding-top: 50px;
+    }
+}
+@media only screen and (min-width:1600px) and (max-width:2500px) {
+    #page8 {
+        display: none;
+    }
+
+
+@media only screen and (min-width:1480px) and (max-width:1600px) {
+    .page7 {
+        border-bottom: none;
+    }
+}
+
+@media only screen and (min-width:750px) and (max-width:1200px) {
+    .line {
+        margin-left: -2vw;
+    }
+}
+
+@media only screen and (min-width:750px) and (max-width:1150px) {
+    .footer>.right {
+        width: 30%;
+    }
+
+    .footer>.left {
+        width: 20%;
+    }
+}
+
+@media only screen and (min-width:700px) and (max-width:1100px) {
+    #nav>img {
+        width: 20%;
+    }
+}
+@media only screen  and (max-width:780px) {
+    #page1.part1{
+        margin-left: -3vw;
+    }
+}
+}
+@media only screen  and (max-width:570px) {
+    #page1.part1 {
+        margin-left: -5vw;
+    }
+}
+
+@media only screen and (max-width:480px) {
+    .y>.img-contain {
+        margin-left: 4vw;
+        width: 90vw!important;
+    }
+
+    #nav>li {
+        display: none;
+    }
+
+    #nav>img {
+        margin-left: 20vw;
+        width: 50%;
+    }
+
+    .page0>#page1 {
+        display: none;
+    }
+
+    #page2 {
+        margin-top: 4vw;
+    }
+
+    #page3 {
+        flex-direction: column-reverse;
+    }
+
+    #page3>.page3-2>img {
+        margin-left: 0vw;
+        width: 90vw;
+    }
+
+    #page3>.page3-2 {
+        border-left: none;
+        width: 100%;
+    }
+
+    #page3>.page3-2>h1 {
+        font-size: 12vw;
+    }
+
+    #page3>.page3-1>img {
+        width: 90vw;
+    }
+
+    #page3>.page3-1>h1 {
+        font-size: 27vw;
+    }
+
+    #page3>.page3-1>h2 {
+        font-size: 46vw;
+    }
+
+    #page3>.page3-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #page3>.page3-1>p::first-letter {
+        font-size: 26vw;
+        line-height: 20vw;
+        margin: 0.7vw 3vw 1vw 0vw;
+        padding: 0.75vw 0.4vw 0.5vw 0.5vw;
+    }
+
+    #page3>.page3-1>p {
+        font-size: 6vw;
+        width: 100%;
+    }
+
+    #page4 {
+        display: none;
+    }
+
+    #page5,
+    #page5>.left>.left1 {
+        flex-direction: column;
+    }
+
+    #page5>.left>.left1>.t {
+        border: none;
+        width: 100%;
+    }
+
+    #page5>.left {
+        border-right: none;
+        width: 100%;
+    }
+
+    #page5>.left>.left1>.part2>h1 {
+        overflow: hidden;
+        font-family: canopee;
+        font-size: 27.9vw;
+    }
+
+    #page5>.left>.left1>.part2>h1>span {
+        display: inline-block;
+        margin-left: 12vw;
+    }
+
+    #page5>.left>.left1>.part2>h3 {
+        font-size: 9.5vw;
+    }
+
+    #page5>.left>.left1>.part2>h5>span {
+        font-family: canopee;
+        font-size: 6.5vw;
+    }
+
+    #page5>.left>.left1>.part2>h5 {
+        font-size: 5.4vw;
+    }
+
+    .part1>.img-contain {
+        width: 92vw;
+        height: 35vw;
+    }
+
+    #page5>.left>.left1>.y {
+        width: 100%;
+        margin-top: 9vw;
+    }
+
+    #page5>.left>.left1>.part1>p {
+        width: 100%;
+        font-size: 5.2vw;
+    }
+
+    #page5>.left>.left1>.part1>h4 {
+        font-family: canopee;
+        font-size: 9vw;
+    }
+
+    #page5>.right {
+        display: none;
+    }
+
+    #page5>.left>.left2 {
+        display: none;
+    }
+
+    .page6,
+    #page8>.card-container2,
+    #page8>.card-container3 {
+        display: none;
+    }
+
+    .p1 {
+        flex-direction: column-reverse;
+    }
+
+    .page7>.p1>.p1-1>.p1-1-1>img,
+    .p2>.p2-1>img,
+    .p2>.p2-2>.p2-2-2>h1 {
+        display: none;
+    }
+
+    .page7>.p1>.p1-1>.p1-1-2>h1 {
+        font-family: canopee;
+        font-size: 37vw;
+        margin-top: 0;
+    }
+
+    .p1>.p1-1 {
+        flex-direction: row;
+    }
+
+    .page7>.p1>.p1-1>.p1-1-1>h1 {
+        font-family: canopee;
+        font-size: 37vw;
+    }
+
+    .p2>.p2-1>h1 {
+        font-family: canopee;
+        font-size: 39vw;
+    }
+
+    .p2>.p2-2 {
+        flex-direction: column-reverse;
+    }
+
+    .p2>.p2-2>.p2-2-1>h1 {
+        font-size: 39vw;
+        width: 100%;
+    }
+
+    .p2>.p2-2>.p2-2-2 {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .p2>.p2-2>.p2-2-2>p,
+    h3 {
+        font-size: 5.8vw;
+    }
+
+    #page8 {
+        opacity: 1;
+        height: 114vh;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+
+    #page8>.card-container,
+    #page8>.card-container1 {
+        position: relative;
+        border-radius: 20px;
+        width: 90vw;
+        pointer-events: none;
+        z-index: 1;
+        height: 52vh;
+        margin-left: 0!important;
+    }
+
+    .cards,
+    .cards-2 {
+        border-radius: 20px;
+        height: 50vh;
+        gap: 14px;
+        width: 100%;
+        padding: 20px;
+    }
+
+    .text {
+        font-size: 6.2vw;
+        line-height: normal;
+    }
+
+    .data>h1 {
+        font-size: 7.2vw;
+        line-height: normal;
+    }
+
+    .data>h2 {
+        font-size: 4.4vw;
+        line-height: normal;
+        font-weight: lighter;
+    }
+
+    .profile>.image>img {
+        width: 12vw;
+        border: 1px solid #1D1D1B;
+        border-radius: 50%;
+    }
+
+    .contain {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #page1>.contain>.part2 h1 {
+        font-family: canopee;
+        font-size: 30vw;
+        font-weight: 700;
+    }
+
+    #page1>.contain>.part2 h1 span {
+        display: inherit;
+    }
+
+    #page1>.contain>.part1>h4 {
+        display: flex;
+        align-items: flex-start;
+        font-family: canopee;
+        font-size: 7.5vw;
+    }
+
+    #page1>.contain>.part1>h4>span {
+        margin-top: 1vw;
+        font-size: 1.5vw;
+    }
+
+    #page1>.contain>.part1>p {
+        font-size: 4.1vw;
+        font-weight: 400;
+        color: #1d1d1b;
+    }
+
+    #page1>.contain>#res {
+        display: none;
+    }
+
+
+    #page1>.contain>.part2 {
+        width: 100%;
+        text-align: center;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin: 0;
+    }
+
+    .page10>.scroller>h1 {
+        font-size: 13vw;
+    }
+
+    .footer>.left>img {
+        width: 5vw;
+    }
+
+    .footer>.left>h2 {
+        font-size: 4.5vw;
+        font-weight: 100;
+    }
+
+    .footer>.left>h1 {
+        display: none;
+    }
+
+    .footer>.right {
+        text-transform: uppercase;
+        font-family: canopee;
+        font-size: 3.4vw;
+    }
+
+    .p1-2>img {
+        width: 93vw;
+    }
+
+    .footer>.right {
+        width: 76%;
+    }
+
+    #page1>.contain>.part1 {
+        display: flex;
+        flex-direction: column;
+        width: 96vw;
+        padding: 0 40px;
+        gap: 13px;
+    }
+
+    .part1>.img-contain {
+        width: 78vw;
+        height: 30vw;
+    }
+
+    #page1>.contain>.part2 h1 {
+        margin-left: 7vw;
+        font-family: canopee;
+        font-size: 27vw;
+        font-weight: 700;
+    }
+
+    #page1>.contain>.part2 h3 {
+        display: inline-block;
+        font-size: 8.5vw;
+        font-weight: 100;
+        width: 100%;
+    }
+}
+@media only screen and (max-width:560px){
+    #page3>.page3-1>h1 {
+        margin-top: -2vw;
+        font-size: 24vw;
+        font-weight: 500;
+        font-family: canopee;
+        letter-spacing: -2px;
+    }
+    #page3>.page3-1>h2 {
+        font-size: 42vw;
+        font-family: canopee;
+        font-weight: 500;
+        letter-spacing: -2px;
+        margin-top: 0px;
+    }
+    #page4>.heading {
+        margin-left: -6vw;
+    }
+    .oval>h1 {
+        margin-left: -22vw;
+    }
+    #page1 {
+        margin-left: -5vw;
+    }
+}
